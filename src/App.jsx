@@ -7,8 +7,16 @@ import StudentDetail from './pages/StudentDetail';
 import Settings from './pages/Settings';
 
 function App() {
+  const baseUrl = import.meta.env.BASE_URL
+  // React Router expects basename without trailing slash (except "/").
+  const routerBasename = baseUrl === '/'
+    ? '/'
+    : baseUrl.endsWith('/')
+      ? baseUrl.slice(0, -1)
+      : baseUrl
+
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={routerBasename}>
       <div className="flex min-h-screen bg-darkBg text-slate-200 font-sans">
         <Sidebar />
         <main className="flex-1 overflow-x-hidden bg-mesh relative">
