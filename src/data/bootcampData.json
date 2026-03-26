@@ -1,0 +1,4744 @@
+[
+  {
+    "id": 1,
+    "name": "Sanskar Rajput",
+    "track": "MERN",
+    "scores": {
+      "week1": 0,
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "Poor",
+      "overall": 0,
+      "overallRating": "Poor"
+    },
+    "metrics": [
+      {
+        "subject": "Sanskar Rajput",
+        "score": 53
+      },
+      {
+        "subject": "Communication",
+        "score": 51
+      },
+      {
+        "subject": "Professionalism and Discipline",
+        "score": 43
+      },
+      {
+        "subject": "Proactiveness",
+        "score": 40
+      },
+      {
+        "subject": "Learning and Agile",
+        "score": 50
+      },
+      {
+        "subject": "React",
+        "score": 41
+      },
+      {
+        "subject": "Node",
+        "score": 43
+      }
+    ],
+    "mentorRemarks": [
+      {
+        "category": "Sanskar Rajput",
+        "mentor": "MERN",
+        "remark": "Week 1"
+      },
+      {
+        "category": "Communication",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "React",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "React",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Node",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Node",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Node",
+        "mentor": 200,
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Node",
+        "mentor": 1,
+        "remark": "Evaluating..."
+      }
+    ],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    },
+    "moms": [
+      {
+        "meeting": "Mid-Term",
+        "notes": "Progress evaluated. Feedback provided on code structures."
+      },
+      {
+        "meeting": "Final",
+        "notes": "Final evaluation complete. Discussion on deployment and optimizations."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Yash Kalange",
+    "track": "MERN",
+    "scores": {
+      "week1": 0,
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "Poor",
+      "overall": 0,
+      "overallRating": "Poor"
+    },
+    "metrics": [
+      {
+        "subject": "Yash Kalange",
+        "score": 53
+      },
+      {
+        "subject": "Communication",
+        "score": 51
+      },
+      {
+        "subject": "Professionalism and Discipline",
+        "score": 50
+      },
+      {
+        "subject": "Proactiveness",
+        "score": 46
+      },
+      {
+        "subject": "Learning and Agile",
+        "score": 51
+      },
+      {
+        "subject": "React",
+        "score": 41
+      },
+      {
+        "subject": "Node",
+        "score": 52
+      }
+    ],
+    "mentorRemarks": [
+      {
+        "category": "Yash Kalange",
+        "mentor": "MERN",
+        "remark": "Week 1"
+      },
+      {
+        "category": "Communication",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "React",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "React",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Node",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Node",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Node",
+        "mentor": 200,
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Node",
+        "mentor": 1,
+        "remark": "Evaluating..."
+      }
+    ],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    },
+    "moms": [
+      {
+        "meeting": "Mid-Term",
+        "notes": "Progress evaluated. Feedback provided on code structures."
+      },
+      {
+        "meeting": "Final",
+        "notes": "Final evaluation complete. Discussion on deployment and optimizations."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Indra Phand",
+    "track": "MERN",
+    "scores": {
+      "week1": 0,
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "Poor",
+      "overall": 0,
+      "overallRating": "Poor"
+    },
+    "metrics": [
+      {
+        "subject": "Indra Phand",
+        "score": 51
+      },
+      {
+        "subject": "Communication",
+        "score": 44
+      },
+      {
+        "subject": "Professionalism and Discipline",
+        "score": 41
+      },
+      {
+        "subject": "Proactiveness",
+        "score": 46
+      },
+      {
+        "subject": "Learning and Agile",
+        "score": 44
+      },
+      {
+        "subject": "React",
+        "score": 47
+      },
+      {
+        "subject": "Node",
+        "score": 46
+      }
+    ],
+    "mentorRemarks": [
+      {
+        "category": "Indra Phand",
+        "mentor": "MERN",
+        "remark": "Week 1"
+      },
+      {
+        "category": "Communication",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "React",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "React",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Node",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Node",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Node",
+        "mentor": 200,
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Node",
+        "mentor": 1,
+        "remark": "Evaluating..."
+      }
+    ],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    },
+    "moms": [
+      {
+        "meeting": "Mid-Term",
+        "notes": "Progress evaluated. Feedback provided on code structures."
+      },
+      {
+        "meeting": "Final",
+        "notes": "Final evaluation complete. Discussion on deployment and optimizations."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Bhargavi Thorat",
+    "track": "MERN",
+    "scores": {
+      "week1": 0,
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "Poor",
+      "overall": 0,
+      "overallRating": "Poor"
+    },
+    "metrics": [
+      {
+        "subject": "Bhargavi Thorat",
+        "score": 45
+      },
+      {
+        "subject": "Communication",
+        "score": 40
+      },
+      {
+        "subject": "Professionalism and Discipline",
+        "score": 45
+      },
+      {
+        "subject": "Proactiveness",
+        "score": 42
+      },
+      {
+        "subject": "Learning and Agile",
+        "score": 54
+      },
+      {
+        "subject": "React",
+        "score": 42
+      },
+      {
+        "subject": "Node",
+        "score": 41
+      }
+    ],
+    "mentorRemarks": [
+      {
+        "category": "Bhargavi Thorat",
+        "mentor": "MERN",
+        "remark": "Week 1"
+      },
+      {
+        "category": "Communication",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "React",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "React",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Node",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Node",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Node",
+        "mentor": 200,
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Node",
+        "mentor": 1,
+        "remark": "Evaluating..."
+      }
+    ],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    },
+    "moms": [
+      {
+        "meeting": "Mid-Term",
+        "notes": "Progress evaluated. Feedback provided on code structures."
+      },
+      {
+        "meeting": "Final",
+        "notes": "Final evaluation complete. Discussion on deployment and optimizations."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Amreetanshu Sinha",
+    "track": "MERN",
+    "scores": {
+      "week1": 0,
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "Poor",
+      "overall": 0,
+      "overallRating": "Poor"
+    },
+    "metrics": [
+      {
+        "subject": "Sumit Haverikar",
+        "score": 47
+      },
+      {
+        "subject": "Communication",
+        "score": 46
+      },
+      {
+        "subject": "Professionalism and Discipline",
+        "score": 52
+      },
+      {
+        "subject": "Proactiveness",
+        "score": 41
+      },
+      {
+        "subject": "Learning and Agile",
+        "score": 48
+      },
+      {
+        "subject": "React",
+        "score": 48
+      },
+      {
+        "subject": "Node",
+        "score": 48
+      }
+    ],
+    "mentorRemarks": [
+      {
+        "category": "Sumit Haverikar",
+        "mentor": "MERN",
+        "remark": "Week 1"
+      },
+      {
+        "category": "Communication",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "React",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "React",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Node",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Node",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Node",
+        "mentor": 200,
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Node",
+        "mentor": 1,
+        "remark": "Evaluating..."
+      }
+    ],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    },
+    "moms": [
+      {
+        "meeting": "Mid-Term",
+        "notes": "Progress evaluated. Feedback provided on code structures."
+      },
+      {
+        "meeting": "Final",
+        "notes": "Final evaluation complete. Discussion on deployment and optimizations."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Sumit Haverikar",
+    "track": "MERN",
+    "scores": {
+      "week1": 0,
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "Poor",
+      "overall": 0,
+      "overallRating": "Poor"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "id": 7,
+    "name": "Giriraj Thanvi",
+    "track": "MERN",
+    "scores": {
+      "week1": 0,
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "Poor",
+      "overall": 0,
+      "overallRating": "Poor"
+    },
+    "metrics": [
+      {
+        "subject": "Giriraj Thanvi",
+        "score": 45
+      },
+      {
+        "subject": "Communication",
+        "score": 41
+      },
+      {
+        "subject": "Professionalism and Discipline",
+        "score": 44
+      },
+      {
+        "subject": "Proactiveness",
+        "score": 45
+      },
+      {
+        "subject": "Learning and Agile",
+        "score": 43
+      },
+      {
+        "subject": "React",
+        "score": 53
+      },
+      {
+        "subject": "Node",
+        "score": 43
+      }
+    ],
+    "mentorRemarks": [
+      {
+        "category": "Giriraj Thanvi",
+        "mentor": "MERN",
+        "remark": "Week 1"
+      },
+      {
+        "category": "Communication",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "React",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "React",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Node",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Node",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Node",
+        "mentor": 200,
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Node",
+        "mentor": 1,
+        "remark": "Evaluating..."
+      }
+    ],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    },
+    "moms": [
+      {
+        "meeting": "Mid-Term",
+        "notes": "Progress evaluated. Feedback provided on code structures."
+      },
+      {
+        "meeting": "Final",
+        "notes": "Final evaluation complete. Discussion on deployment and optimizations."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Harshali Patil",
+    "track": "MERN",
+    "scores": {
+      "week1": 0,
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "Poor",
+      "overall": 0,
+      "overallRating": "Poor"
+    },
+    "metrics": [
+      {
+        "subject": "Harshali Patil",
+        "score": 47
+      },
+      {
+        "subject": "Communication",
+        "score": 49
+      },
+      {
+        "subject": "Professionalism and Discipline",
+        "score": 50
+      },
+      {
+        "subject": "Proactiveness",
+        "score": 42
+      },
+      {
+        "subject": "Learning and Agile",
+        "score": 49
+      },
+      {
+        "subject": "React",
+        "score": 45
+      },
+      {
+        "subject": "Node",
+        "score": 47
+      }
+    ],
+    "mentorRemarks": [
+      {
+        "category": "Harshali Patil",
+        "mentor": "MERN",
+        "remark": "Week 1"
+      },
+      {
+        "category": "Communication",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "React",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "React",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Node",
+        "mentor": "Rahul",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Node",
+        "mentor": "Devashree",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Node",
+        "mentor": 200,
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Node",
+        "mentor": 1,
+        "remark": "Evaluating..."
+      }
+    ],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    },
+    "moms": [
+      {
+        "meeting": "Mid-Term",
+        "notes": "Progress evaluated. Feedback provided on code structures."
+      },
+      {
+        "meeting": "Final",
+        "notes": "Final evaluation complete. Discussion on deployment and optimizations."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Chetan Asane",
+    "track": "Java-React",
+    "scores": {
+      "week1": 0,
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "Poor",
+      "overall": 0,
+      "overallRating": "Poor"
+    },
+    "metrics": [
+      {
+        "subject": "Chetan Asane",
+        "score": 43
+      },
+      {
+        "subject": "Communication",
+        "score": 40
+      },
+      {
+        "subject": "Professionalism and Discipline",
+        "score": 48
+      },
+      {
+        "subject": "Proactiveness",
+        "score": 50
+      },
+      {
+        "subject": "Learning and Agile",
+        "score": 45
+      },
+      {
+        "subject": "React",
+        "score": 46
+      },
+      {
+        "subject": "Java",
+        "score": 50
+      }
+    ],
+    "mentorRemarks": [
+      {
+        "category": "Chetan Asane",
+        "mentor": "J2EE-React",
+        "remark": "Week 1"
+      },
+      {
+        "category": "Communication",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Amresh",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Neha",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Amresh",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Neha",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Amresh",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Neha",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Amresh",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Neha",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "React",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "React",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Java",
+        "mentor": "Amresh",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Java",
+        "mentor": "Neha",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Java",
+        "mentor": 200,
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Java",
+        "mentor": 1,
+        "remark": "Evaluating..."
+      }
+    ],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    },
+    "moms": [
+      {
+        "meeting": "Mid-Term",
+        "notes": "Progress evaluated. Feedback provided on code structures."
+      },
+      {
+        "meeting": "Final",
+        "notes": "Final evaluation complete. Discussion on deployment and optimizations."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Pravin Sahu",
+    "track": "Java-React",
+    "scores": {
+      "week1": 0,
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "Poor",
+      "overall": 0,
+      "overallRating": "Poor"
+    },
+    "metrics": [
+      {
+        "subject": "Pravin Sahu",
+        "score": 54
+      },
+      {
+        "subject": "Communication",
+        "score": 53
+      },
+      {
+        "subject": "Professionalism and Discipline",
+        "score": 54
+      },
+      {
+        "subject": "Proactiveness",
+        "score": 54
+      },
+      {
+        "subject": "Learning and Agile",
+        "score": 46
+      },
+      {
+        "subject": "React",
+        "score": 47
+      },
+      {
+        "subject": "Java",
+        "score": 47
+      }
+    ],
+    "mentorRemarks": [
+      {
+        "category": "Pravin Sahu",
+        "mentor": "J2EE-React",
+        "remark": "Week 1"
+      },
+      {
+        "category": "Communication",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Amresh",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Neha",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Amresh",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Neha",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Amresh",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Neha",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Amresh",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Neha",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "React",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "React",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Java",
+        "mentor": "Amresh",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Java",
+        "mentor": "Neha",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Java",
+        "mentor": 200,
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Java",
+        "mentor": 1,
+        "remark": "Evaluating..."
+      }
+    ],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    },
+    "moms": [
+      {
+        "meeting": "Mid-Term",
+        "notes": "Progress evaluated. Feedback provided on code structures."
+      },
+      {
+        "meeting": "Final",
+        "notes": "Final evaluation complete. Discussion on deployment and optimizations."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Rishita Pathak",
+    "track": "Java-React",
+    "scores": {
+      "week1": 0,
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "Poor",
+      "overall": 0,
+      "overallRating": "Poor"
+    },
+    "metrics": [
+      {
+        "subject": "Rishita Pathak",
+        "score": 43
+      },
+      {
+        "subject": "Communication",
+        "score": 40
+      },
+      {
+        "subject": "Professionalism and Discipline",
+        "score": 50
+      },
+      {
+        "subject": "Proactiveness",
+        "score": 51
+      },
+      {
+        "subject": "Learning and Agile",
+        "score": 53
+      },
+      {
+        "subject": "React",
+        "score": 48
+      },
+      {
+        "subject": "Java",
+        "score": 46
+      }
+    ],
+    "mentorRemarks": [
+      {
+        "category": "Rishita Pathak",
+        "mentor": "J2EE-React",
+        "remark": "Week 1"
+      },
+      {
+        "category": "Communication",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Amresh",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Communication",
+        "mentor": "Neha",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Amresh",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Professionalism and Discipline",
+        "mentor": "Neha",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Amresh",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Proactiveness",
+        "mentor": "Neha",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Amresh",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Learning and Agile",
+        "mentor": "Neha",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "React",
+        "mentor": "Sahil",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "React",
+        "mentor": "Vimu",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Java",
+        "mentor": "Amresh",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Java",
+        "mentor": "Neha",
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Java",
+        "mentor": 200,
+        "remark": "Evaluating..."
+      },
+      {
+        "category": "Java",
+        "mentor": 1,
+        "remark": "Evaluating..."
+      }
+    ],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    },
+    "moms": [
+      {
+        "meeting": "Mid-Term",
+        "notes": "Progress evaluated. Feedback provided on code structures."
+      },
+      {
+        "meeting": "Final",
+        "notes": "Final evaluation complete. Discussion on deployment and optimizations."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Jayraj VenugopalGajul",
+    "track": "Java-React",
+    "scores": {
+      "week1": 0,
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "Poor",
+      "overall": 0,
+      "overallRating": "Poor"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "name": "",
+    "track": "",
+    "scores": {
+      "week1": 0,
+      "week2": 0,
+      "week3": 0,
+      "week4": "Outstanding",
+      "week5": "> 90",
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "name": "",
+    "track": "",
+    "scores": {
+      "week1": 0,
+      "week2": 0,
+      "week3": 0,
+      "week4": "Excellent",
+      "week5": "80 - 89",
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "name": "",
+    "track": "",
+    "scores": {
+      "week1": 0,
+      "week2": 0,
+      "week3": 0,
+      "week4": "Good",
+      "week5": "70 - 79",
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "name": "",
+    "track": "",
+    "scores": {
+      "week1": 0,
+      "week2": 0,
+      "week3": 0,
+      "week4": "Average",
+      "week5": "60 - 69",
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "name": "For each topic below need to give points out of 10 in each candidate sheet",
+    "track": "",
+    "scores": {
+      "week1": 0,
+      "week2": 0,
+      "week3": 0,
+      "week4": "Poor",
+      "week5": "< 60",
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "id": 1,
+    "name": "Communication",
+    "track": "",
+    "scores": {
+      "week1": 0,
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "id": 2,
+    "name": "Professionalism and Discipline",
+    "track": "",
+    "scores": {
+      "week1": 0,
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "id": 3,
+    "name": "Proactiveness",
+    "track": "",
+    "scores": {
+      "week1": 0,
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "id": 4,
+    "name": "Learning and Agile",
+    "track": "",
+    "scores": {
+      "week1": 0,
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "id": 5,
+    "name": "React",
+    "track": "",
+    "scores": {
+      "week1": 0,
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "id": 6,
+    "name": "Node / Java",
+    "track": "",
+    "scores": {
+      "week1": 0,
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "name": "Team Collaboration",
+    "track": "",
+    "scores": {
+      "week1": "Engages in pair programming, helps others",
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "name": "Feedback Reception",
+    "track": "",
+    "scores": {
+      "week1": "Open to feedback, improves based on suggestions",
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "name": "Discipline & Reliability",
+    "track": "",
+    "scores": {
+      "week1": "Meets deadlines, punctual, shows ownership",
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "name": "Learning Initiative",
+    "track": "",
+    "scores": {
+      "week1": "Proactively explores new tools/topics",
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "name": "Time Management",
+    "track": "",
+    "scores": {
+      "week1": "Completes tasks without frequent follow-ups",
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "name": "Client Communication Readiness",
+    "track": "",
+    "scores": {
+      "week1": "Can speak clearly about their work, asks clarifying questions",
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "name": "Verbal Clarity",
+    "track": "",
+    "scores": {
+      "week1": "Explains technical concepts simply",
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "name": "Email Etiquette",
+    "track": "",
+    "scores": {
+      "week1": "Proper structure, subject line, grammar, tone",
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "name": "Asynchronous Communication",
+    "track": "",
+    "scores": {
+      "week1": "Slack/Teams messages are clear and concise",
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "name": "Daily Standup Participation",
+    "track": "",
+    "scores": {
+      "week1": 0,
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "name": "Core Language Proficiency",
+    "track": "",
+    "scores": {
+      "week1": "Comfort with JavaScript, React, Node, etc.",
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "name": "Framework Understanding",
+    "track": "",
+    "scores": {
+      "week1": "Understanding of React/MERN concepts, best practices",
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "name": "Debugging & Problem Solving",
+    "track": "",
+    "scores": {
+      "week1": "Ability to break down issues and debug efficiently",
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "name": "Code Quality & Structure",
+    "track": "",
+    "scores": {
+      "week1": "Clean code, modularity, naming conventions",
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "name": "Version Control",
+    "track": "Git",
+    "scores": {
+      "week1": "Use of branches, commits, PRs, rebasing, etc.",
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "name": "Unit Testing Basics",
+    "track": "",
+    "scores": {
+      "week1": "Understanding of testing frameworks, writing tests",
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "name": "API Handling & Integration",
+    "track": "",
+    "scores": {
+      "week1": "Consuming REST APIs, handling errors, async logic",
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "name": "Project Ownership",
+    "track": "",
+    "scores": {
+      "week1": "Ability to deliver features with minimal supervision",
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "name": "Understanding of EPICO",
+    "track": "or Internal",
+    "scores": {
+      "week1": "Adherence to internal delivery methodology/process (e.g. sprint, reviews)",
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "name": "Task Management",
+    "track": "",
+    "scores": {
+      "week1": "Timely updates, breaking tasks, tracking with tools (e.g., Jira, Trello)",
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "name": "Documentation",
+    "track": "",
+    "scores": {
+      "week1": "PR descriptions, code comments, meeting notes",
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "name": "Following Standards",
+    "track": "",
+    "scores": {
+      "week1": "Naming conventions, folder structure, formatting",
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  },
+  {
+    "name": "Testing Before Submission",
+    "track": "",
+    "scores": {
+      "week1": "Self-validation, not pushing broken code",
+      "week2": 0,
+      "week3": 0,
+      "week4": 0,
+      "week5": 0,
+      "week6": 0,
+      "week7": 0,
+      "week8": 0,
+      "midTerm": 0,
+      "midTermRating": "N/A",
+      "overall": 0,
+      "overallRating": "N/A"
+    },
+    "metrics": [],
+    "mentorRemarks": [],
+    "projectFeedback": {
+      "scorecard": [
+        {
+          "criteria": "Understanding - problem statement",
+          "points": 10
+        },
+        {
+          "criteria": "Planning: Breakdown",
+          "points": 10
+        },
+        {
+          "criteria": "Database diagram",
+          "points": 10
+        },
+        {
+          "criteria": "On time DB diagram submission",
+          "points": 10
+        },
+        {
+          "criteria": "Team coordination",
+          "points": 10
+        },
+        {
+          "criteria": "UI implementation ",
+          "points": 10
+        },
+        {
+          "criteria": "API implementation",
+          "points": 10
+        },
+        {
+          "criteria": "Overall project",
+          "points": 10
+        },
+        {
+          "criteria": "Communication and presentation",
+          "points": 10
+        },
+        {
+          "criteria": "Code structure and standards",
+          "points": 10
+        },
+        {
+          "criteria": "Completion of project features",
+          "points": 10
+        }
+      ],
+      "totalPoints": 110
+    }
+  }
+]
