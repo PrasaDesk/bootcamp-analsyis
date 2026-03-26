@@ -1,6 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { generateStudentAnalysisPrompt } from '../utils/aiPrompt';
-import { Sparkles, BrainCircuit, RefreshCw, AlertTriangle, ChevronRight, Target } from 'lucide-react';
+import { Sparkles, BrainCircuit, RefreshCw, AlertTriangle, ChevronRight, Target, Download, Loader2 } from 'lucide-react';
+import { jsPDF } from 'jspdf';
+import { toPng } from 'html-to-image';
 
 export default function AIAnalysisSection({ student }) {
   const [loading, setLoading] = useState(false);
@@ -65,13 +67,17 @@ export default function AIAnalysisSection({ student }) {
       }
 
       const parsedJSON = JSON.parse(content);
-      
+
       const analysisData = {
+        smartPercentage: parsedJSON.smartPercentage || "N/A",
+        smartRating: parsedJSON.smartRating || "N/A",
         summary: parsedJSON.summary || "No summary provided by the AI.",
         focusTags: parsedJSON.focusTags || [],
-        improvements: parsedJSON.improvements || ["No specific actionable points provided."]
+        improvements: parsedJSON.improvements || ["No specific actionable points provided."],
+        strengths: parsedJSON.strengths || [],
+        weaknesses: parsedJSON.weaknesses || []
       };
-      
+
       setAnalysis(analysisData);
       localStorage.setItem(storageKey, JSON.stringify(analysisData));
     } catch (err) {
@@ -85,7 +91,7 @@ export default function AIAnalysisSection({ student }) {
   return (
     <div className="glass-card mb-8 overflow-hidden relative">
       <div className="absolute -top-32 -right-32 w-64 h-64 bg-fuchsia-500/[0.04] rounded-full blur-3xl pointer-events-none" />
-      
+
       <div className="p-6 md:p-8 relative z-10 flex flex-col items-start gap-4 border-b border-white/[0.04]">
         <div className="flex items-center gap-3">
           <div className="p-2.5 rounded-xl bg-fuchsia-500/10 ring-1 ring-fuchsia-500/20">
@@ -98,7 +104,7 @@ export default function AIAnalysisSection({ student }) {
         </div>
 
         {!analysis && !loading && (
-          <button 
+          <button
             onClick={fetchAIAnalysis}
             className="mt-2 flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-fuchsia-600 to-indigo-600 hover:from-fuchsia-500 hover:to-indigo-500 text-white font-bold text-sm shadow-lg shadow-fuchsia-500/20 transition-all hover:scale-[1.02] active:scale-95 border border-fuchsia-400/20"
           >
@@ -110,9 +116,40 @@ export default function AIAnalysisSection({ student }) {
 
       <div className="p-6 md:p-8 relative z-10 space-y-6">
         {loading && (
-          <div className="flex flex-col items-center justify-center py-10 space-y-4">
-            <RefreshCw className="w-8 h-8 text-fuchsia-400 animate-spin" />
-            <p className="text-sm font-medium text-slate-400 animate-pulse">Running advanced diagnostic synthesis...</p>
+          <div className="flex flex-col items-center justify-center py-16 space-y-6 relative overflow-hidden rounded-3xl bg-slate-900/40 border border-fuchsia-500/20 shadow-[0_0_40px_rgba(232,121,249,0.05)_inset]">
+            {/* Glowing Orbs */}
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[150%] max-w-[400px] aspect-square bg-gradient-to-tr from-fuchsia-600/20 to-indigo-600/20 rounded-full blur-[60px] animate-pulse"></div>
+
+            {/* Neural Processor Icon */}
+            <div className="relative z-10 flex items-center justify-center">
+              <div className="absolute inset-0 rounded-full border-t-2 border-fuchsia-500/50 animate-spin" style={{ animationDuration: '2s' }}></div>
+              <div className="absolute inset-0 rounded-full border-r-2 border-indigo-500/50 animate-spin" style={{ animationDuration: '3s', animationDirection: 'reverse' }}></div>
+              <div className="relative flex items-center justify-center w-20 h-20 rounded-2xl bg-slate-900/90 border border-indigo-500/30 shadow-2xl backdrop-blur-xl">
+                <BrainCircuit className="w-10 h-10 text-fuchsia-400 animate-pulse" style={{ animationDuration: '1s' }} />
+                <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-fuchsia-500 to-indigo-500 opacity-20 blur-sm animate-pulse"></div>
+              </div>
+            </div>
+
+            {/* Typography */}
+            <div className="relative z-10 flex flex-col items-center gap-2 mt-4 text-center px-4">
+              <div className="flex items-center gap-2">
+                <Sparkles className="w-4 h-4 text-fuchsia-400 animate-pulse" />
+                <h3 className="text-sm font-black text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-300 to-indigo-300 uppercase tracking-widest drop-shadow-lg">
+                  Deep Synthesizer Active
+                </h3>
+                <Sparkles className="w-4 h-4 text-indigo-400 animate-pulse" />
+              </div>
+              <p className="text-xs font-medium text-indigo-200/60 lowercase tracking-wider animate-pulse pt-1">
+                correlating mentor logs & cross-referencing vectors...
+              </p>
+            </div>
+
+            {/* Bouncing Nodes */}
+            <div className="flex gap-2 relative z-10 pt-2">
+              <div className="w-1.5 h-1.5 rounded-full bg-fuchsia-400 animate-bounce shadow-[0_0_8px_rgba(232,121,249,1)]" style={{ animationDelay: '0ms' }} />
+              <div className="w-1.5 h-1.5 rounded-full bg-indigo-400 animate-bounce shadow-[0_0_8px_rgba(129,140,248,1)]" style={{ animationDelay: '150ms' }} />
+              <div className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-bounce shadow-[0_0_8px_rgba(52,211,153,1)]" style={{ animationDelay: '300ms' }} />
+            </div>
           </div>
         )}
 
@@ -128,10 +165,59 @@ export default function AIAnalysisSection({ student }) {
 
         {analysis && !loading && (
           <div className="space-y-8 animate-fade-in-up">
-            <div className="bg-fuchsia-500/5 border border-fuchsia-500/10 rounded-2xl p-5 md:p-6 shadow-inner">
-              <p className="text-sm md:text-base text-slate-300 leading-relaxed font-medium">
-                {analysis.summary}
-              </p>
+            <div className="flex flex-col md:flex-row gap-4">
+              <div className="bg-indigo-500/10 border border-indigo-500/20 rounded-2xl p-5 flex-shrink-0 flex flex-col justify-center items-center backdrop-blur-sm shadow-inner min-w-[140px]">
+                <p className="text-[10px] sm:text-xs text-indigo-300 font-bold uppercase tracking-wider mb-2 text-center flex items-center gap-1.5"><BrainCircuit className="w-3.5 h-3.5" /> AI Trajectory</p>
+                <p className="text-4xl font-black text-white my-1 tracking-tight">{analysis.smartPercentage}</p>
+                <p className="text-[10px] sm:text-xs font-bold text-indigo-200 bg-indigo-500/20 px-3 py-1 mt-2 rounded-full uppercase tracking-widest">{analysis.smartRating}</p>
+              </div>
+
+              <div className="bg-fuchsia-500/5 border border-fuchsia-500/10 rounded-2xl p-5 md:p-6 shadow-inner flex-1 flex flex-col justify-center">
+                <h3 className="text-[10px] sm:text-xs font-bold text-fuchsia-300 uppercase tracking-widest mb-2 flex items-center gap-1.5"><Sparkles className="w-3.5 h-3.5" /> Strategic Summary</h3>
+                <p className="text-sm md:text-base text-slate-300 leading-relaxed font-medium">
+                  {analysis.summary}
+                </p>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <div className="flex items-center gap-2 mb-4">
+                  <Sparkles className="w-4 h-4 text-emerald-400" />
+                  <h3 className="text-sm font-bold text-white uppercase tracking-wider">Strengths</h3>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {analysis.strengths?.length > 0 ? analysis.strengths.map((tag, idx) => (
+                    <span
+                      key={`strength-${idx}`}
+                      className="px-3 py-1.5 rounded-lg text-xs font-bold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 shadow-sm"
+                    >
+                      {tag}
+                    </span>
+                  )) : (
+                    <span className="text-slate-500 text-xs italic">No strengths identified.</span>
+                  )}
+                </div>
+              </div>
+
+              <div>
+                <div className="flex items-center gap-2 mb-4">
+                  <AlertTriangle className="w-4 h-4 text-rose-400" />
+                  <h3 className="text-sm font-bold text-white uppercase tracking-wider">Weaknesses</h3>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {analysis.weaknesses?.length > 0 ? analysis.weaknesses.map((tag, idx) => (
+                    <span
+                      key={`weakness-${idx}`}
+                      className="px-3 py-1.5 rounded-lg text-xs font-bold bg-rose-500/10 text-rose-300 border border-rose-500/20 shadow-sm"
+                    >
+                      {tag}
+                    </span>
+                  )) : (
+                    <span className="text-slate-500 text-xs italic">No weaknesses identified.</span>
+                  )}
+                </div>
+              </div>
             </div>
 
             <div>
@@ -141,8 +227,8 @@ export default function AIAnalysisSection({ student }) {
               </div>
               <div className="flex flex-wrap gap-2">
                 {analysis.focusTags?.length > 0 ? analysis.focusTags.map((tag, idx) => (
-                  <span 
-                    key={idx} 
+                  <span
+                    key={idx}
                     className="px-3 py-1.5 rounded-lg text-xs font-bold bg-white/[0.03] text-indigo-300 border border-indigo-400/20 shadow-sm"
                   >
                     #{tag}
@@ -167,14 +253,14 @@ export default function AIAnalysisSection({ student }) {
                 ))}
               </div>
             </div>
-            
-            <div className="pt-2">
-               <button 
+
+            <div className="pt-4 flex items-center border-t border-white/[0.04]">
+              <button
                 onClick={fetchAIAnalysis}
-                className="flex items-center gap-1.5 text-xs font-bold text-fuchsia-400/70 hover:text-fuchsia-400 transition-colors"
-               >
+                className="flex items-center justify-center gap-2 px-4 py-2 bg-white/[0.02] border border-white/[0.05] rounded-xl text-xs font-bold text-fuchsia-400/80 hover:text-fuchsia-400 hover:bg-fuchsia-400/10 transition-colors"
+              >
                 <RefreshCw className="w-3.5 h-3.5" /> Re-run Analysis
-               </button>
+              </button>
             </div>
           </div>
         )}

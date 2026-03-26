@@ -1,13 +1,13 @@
 export const generateStudentAnalysisPrompt = (student) => {
   const categoriesText = student.metrics?.map(m => `${m.subject}: ${m.score}/10`).join(', ') || 'N/A';
-  const overallFeedback = student.overallComments && student.overallComments.length > 0 
-    ? student.overallComments.join(' | ') 
+  const overallFeedback = student.overallComments && student.overallComments.length > 0
+    ? student.overallComments.join(' | ')
     : 'No explicit overall feedback available.';
-  
-  const meetingLogs = student.moms && student.moms.length > 0 
-    ? student.moms.map(m => `${m.meeting}: ${Array.isArray(m.notes) ? m.notes.join(' / ') : m.notes}`).join(' || ') 
+
+  const meetingLogs = student.moms && student.moms.length > 0
+    ? student.moms.map(m => `${m.meeting}: ${Array.isArray(m.notes) ? m.notes.join(' / ') : m.notes}`).join(' || ')
     : 'No meeting logs available.';
-    
+
   let latestWeek = 0;
   const weeks = [1, 2, 3, 4, 5, 6, 7, 8];
   weeks.forEach(w => {
@@ -17,14 +17,13 @@ export const generateStudentAnalysisPrompt = (student) => {
   });
 
   const timelineContext = latestWeek > 0 && latestWeek < 8
-    ? `TIMELINE CONTEXT: This is a mid-bootcamp assessment! The student has only completed up to Week ${latestWeek} out of 8. Do NOT judge them as if they have finished the entire program. Tailor your focus to where they should be at Week ${latestWeek}.`
-    : `TIMELINE CONTEXT: This represents their complete, final cumulative bootcamp evaluation across all 8 weeks.`;
+    ? `TIMELINE CONTEXT: Mid-bootcamp (Week ${latestWeek}/8). Evaluate ONLY expected progress till this stage.`
+    : `TIMELINE CONTEXT: Final cumulative evaluation (Week 8 completed).`;
 
   const overallScoreStr = student.scores?.overall > 0 ? `${student.scores.overall}%` : 'TBD (Course in Progress)';
   const ratingStr = student.scores?.overallRating && student.scores?.overallRating !== 'N/A' && student.scores?.overallRating !== 'null' ? student.scores.overallRating : 'TBD (Pending Final Review)';
-  
+
   return `You are an expert tech bootcamp mentor analyzing a student's performance.
-Review the following metrics, scores (out of 10), and mentor logs to provide a highly tailored, constructive, and actionable plan for the student.
 
 ${timelineContext}
 
@@ -40,22 +39,60 @@ ${categoriesText}
 Overall Mentor Comments: ${overallFeedback}
 Meeting/Review History: ${meetingLogs}
 
-CRITICAL MENTORING DIRECTIVE:
-Do NOT provide generic "keep it up" or basic improvement feedback. You MUST strictly adjust your tone and recommendations based precisely on their track record above:
-- If the student is performing exceptionally well (e.g., scores 8.5-10, rating Excellent/Good), DO NOT tell them to learn basic fundamentals. Instead, provide ADVANCED challenges, encourage leadership, suggest complex architecture studies, or advise on portfolio building and interview preparation.
-- If the student is average or struggling, accurately diagnose the root cause based on their category trends (e.g. low discipline vs low coding logic) and provide a strict, foundational triage recovery plan.
-- Ensure the feedback is specific to the student's active track (e.g. ${student.track || 'Software Development'}).
+CRITICAL ANALYSIS DIRECTIVE:
 
-Your ONLY output must be a valid, minified JSON object matching the exact schema below. Do not wrap it in markdown code blocks (\`\`\`json) and do not provide any introductory text.
+You MUST derive insights strictly from the numerical scores and logs.
+Do NOT generate generic advice.
+
+SCORING INTERPRETATION RULES:
+- 0–4 → Critical weakness → strict recovery plan
+- 5–6.9 → Average → structured improvement required
+- 7–8.4 → Good → optimization focus
+- 8.5–10 → Excellent → advanced challenges ONLY
+
+LOGIC RULES:
+- Identify between 2 to 5 strengths directly from holistic analysis of scores, mentor comments, and meeting logs.
+- Identify between 2 to 5 weaknesses directly from holistic analysis of scores, mentor comments, and meeting logs.
+- Provide between 2 to 5 targeted improvements. Each weakness MUST map to an improvement, plus any advanced challenges if applicable.
+- Generate between 2 to 5 focus tags based on current priorities.
+- Calculate an independent "smart" overall percentage (e.g., "85%") and rating (e.g., "Excellent", "Good", "Average", "At Risk") that represents their true trajectory. This does NOT need to match their raw "Overall Bootcamp Score" and can be higher or lower depending entirely on your deep analysis of their actual skill level, recent progress, and mentor comments.
+
+ANTI-REPETITION RULE:
+- Avoid generic phrases like "keep practicing" or "improve skills"
+- Ensure each point is unique and specific to THIS student
+- Use student's scores + logs to differentiate output
+
+OUTPUT STYLE RULES:
+- No paragraphs in improvements, strengths, weaknesses
+- Each bullet in improvements must be concise (max 18 words)
+- Strengths and weaknesses MUST BE EXCLUSIVELY 1 or 2 word phrases (e.g. "React", "Time Management", "Debugging"). DO NOT write sentences or phrases.
+- Use action-oriented phrasing only for improvements
+
+FORMAT RULE:
+Each improvement must follow:
+<Action> + <Area> + <Execution detail>
+
+Example:
+"Build 3 REST APIs using NestJS with JWT authentication to improve backend fundamentals"
+
+TRACK ALIGNMENT:
+All suggestions MUST align with ${student.track || 'Software Development'}
+
+STRICT OUTPUT REQUIREMENT:
+Return ONLY a valid minified JSON. No markdown. No explanation.
+Provide dynamically sized arrays (2 to 5 items each) based on the specific results and needs of the student. Do NOT force exactly 3 items.
 
 {
-  "summary": "A 2-3 sentence analytical summary highlighting their specific trajectory and current state based on their exact scores.",
-  "focusTags": ["DynamicTag1", "DynamicTag2", "DynamicTag3"],
+  "smartPercentage": "85%",
+  "smartRating": "Good",
+  "summary": "2 concise sentences explaining performance trend based on scores.",
+  "focusTags": ["DynamicTag1", "DynamicTag2", "...up to 5"],
   "improvements": [
-    "A highly specific, track-relevant action item tailored to their exact skill level.",
-    "Another completely unique actionable challenge or foundational step.",
-    "A final specific goal."
-  ]
+    "Specific action mapped to weakest area",
+    "...between 2 to 5 unique measurable improvements tailored to the student"
+  ],
+  "strengths": ["1-2 words", "...between 2 to 5 strengths"],
+  "weaknesses": ["1-2 words", "...between 2 to 5 weaknesses"]
 }
 `;
 };
