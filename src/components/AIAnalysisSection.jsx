@@ -1,8 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { generateStudentAnalysisPrompt } from '../utils/aiPrompt';
-import { Sparkles, BrainCircuit, RefreshCw, AlertTriangle, ChevronRight, Target, Download, Loader2 } from 'lucide-react';
-import { jsPDF } from 'jspdf';
-import { toPng } from 'html-to-image';
+import { Sparkles, BrainCircuit, RefreshCw, AlertTriangle, ChevronRight, Target } from 'lucide-react';
+import { toast } from 'react-hot-toast';
 
 export default function AIAnalysisSection({ student }) {
   const [loading, setLoading] = useState(false);
@@ -80,9 +79,19 @@ export default function AIAnalysisSection({ student }) {
 
       setAnalysis(analysisData);
       localStorage.setItem(storageKey, JSON.stringify(analysisData));
+
+      toast.success('AI Analysis Generated successfully!', {
+        icon: '✨',
+        style: {
+          background: '#1e293b',
+          color: '#e879f9',
+          border: '1px solid rgba(232, 121, 249, 0.4)'
+        }
+      });
     } catch (err) {
       console.error("AI Analysis Error:", err);
       setError(err.message);
+      toast.error('Factoring logic failed: ' + err.message);
     } finally {
       setLoading(false);
     }

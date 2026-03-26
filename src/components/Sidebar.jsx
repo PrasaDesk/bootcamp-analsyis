@@ -15,7 +15,7 @@ export default function Sidebar() {
       alert("No sheet URL found. Please configure it in Settings first.");
       return;
     }
-    
+
     try {
       setRefreshing(true);
       const { parseExcelFromUrl } = await import('../utils/excelParser');
@@ -58,11 +58,11 @@ export default function Sidebar() {
   ];
 
   return (
-    <aside className="w-72 bg-darkBg2 flex flex-col h-screen sticky top-0 overflow-y-auto overflow-x-hidden border-r border-white/[0.04] z-20 custom-scrollbar">
+    <aside className="w-72 bg-darkBg2 flex flex-col h-screen sticky top-0 overflow-y-hidden overflow-x-hidden border-r border-white/[0.04] z-20 custom-scrollbar">
       {/* Decorative blobs */}
       <div className="absolute top-0 left-0 w-64 h-64 bg-accentBlue/[0.03] rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2 pointer-events-none" />
       <div className="absolute bottom-0 right-0 w-48 h-48 bg-accentPink/[0.03] rounded-full blur-3xl translate-x-1/2 translate-y-1/2 pointer-events-none" />
-      
+
       {/* Logo */}
       <div className="p-7 flex items-center gap-3 relative z-10">
         <div className="relative">
@@ -81,7 +81,7 @@ export default function Sidebar() {
 
       {/* Divider */}
       <div className="mx-5 h-px bg-gradient-to-r from-transparent via-slate-700/50 to-transparent" />
-      
+
       {/* Navigation */}
       <nav className="flex-1 px-4 space-y-1.5 mt-6 relative z-10">
         <p className="px-4 mb-3 text-[10px] font-semibold text-slate-500 uppercase tracking-widest">Navigation</p>
@@ -91,10 +91,9 @@ export default function Sidebar() {
             to={link.to}
             end={link.to === '/'}
             className={({ isActive }) =>
-              `flex items-center gap-3.5 px-4 py-3 rounded-xl transition-all duration-300 relative group ${
-                isActive
-                  ? 'bg-gradient-to-r from-accentBlue/15 to-accentPurple/10 text-white font-semibold border border-accentBlue/20 shadow-lg shadow-accentBlue/5'
-                  : 'text-slate-400 hover:text-white hover:bg-white/[0.03] border border-transparent'
+              `flex items-center gap-3.5 px-4 py-3 rounded-xl transition-all duration-300 relative group ${isActive
+                ? 'bg-gradient-to-r from-accentBlue/15 to-accentPurple/10 text-white font-semibold border border-accentBlue/20 shadow-lg shadow-accentBlue/5'
+                : 'text-slate-400 hover:text-white hover:bg-white/[0.03] border border-transparent'
               }`
             }
           >
@@ -120,10 +119,10 @@ export default function Sidebar() {
 
       {/* Actions & Bottom Card */}
       <div className="mt-auto p-5 relative z-10 flex flex-col gap-3">
-        
+
         {/* Refresh Data (Conditional) */}
         {hasUrl && (
-          <button 
+          <button
             onClick={handleRefreshData}
             disabled={refreshing}
             className="w-full relative overflow-hidden rounded-2xl p-3.5 bg-gradient-to-r from-emerald-500/10 to-teal-500/10 hover:from-emerald-500/20 hover:to-teal-500/20 border border-emerald-500/20 transition-all flex items-center justify-between group disabled:opacity-50"
@@ -140,7 +139,7 @@ export default function Sidebar() {
         )}
 
         {/* Toggle Theme */}
-        <button 
+        <button
           onClick={() => setIsLight(!isLight)}
           className="w-full relative overflow-hidden rounded-2xl p-3.5 bg-gradient-to-r from-slate-800/50 to-slate-900/50 hover:from-white/5 hover:to-white/10 border border-white/[0.06] transition-all flex items-center justify-between group"
         >
