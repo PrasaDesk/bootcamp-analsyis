@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronRight, TrendingUp, Sparkles } from 'lucide-react';
+import { getStudentInsights } from '../utils/studentInsights';
 
 const CARD_ACCENTS = [
   { border: 'hover:border-violet-500/30', glow: 'group-hover:shadow-violet-500/10', avatar: 'from-violet-500 to-purple-600' },
@@ -17,10 +18,24 @@ export default function StudentCard({ student, index }) {
   const isMERN = student.track === 'MERN';
   const overall = student.scores.overall || 0;
   const accent = CARD_ACCENTS[(index || 0) % CARD_ACCENTS.length];
+  const insights = getStudentInsights(student, { maxPerSide: 2 });
   
   let progressGradient = 'from-emerald-400 to-green-500';
   if (overall < 40) progressGradient = 'from-red-400 to-rose-500';
   else if (overall < 70) progressGradient = 'from-amber-400 to-orange-500';
+
+  const Chip = ({ children, variant }) => (
+    <span
+      className={[
+        'px-2.5 py-1 rounded-lg text-[10px] font-extrabold tracking-wide border',
+        variant === 'good'
+          ? 'bg-emerald-500/10 text-emerald-300 border-emerald-500/20'
+          : 'bg-rose-500/10 text-rose-300 border-rose-500/20',
+      ].join(' ')}
+    >
+      {children}
+    </span>
+  );
 
   return (
     <Link 
@@ -63,6 +78,16 @@ export default function StudentCard({ student, index }) {
             <p className="text-[10px] text-slate-500 uppercase tracking-wider font-semibold mb-1">Overall</p>
             <p className="font-mono font-bold text-lg text-white">{overall}<span className="text-xs text-slate-500">%</span></p>
           </div>
+        </div>
+
+        {/* Strengths / Weaknesses chips */}
+        <div className="flex flex-wrap gap-1.5 mb-5">
+          {insights.strengths.map((t) => (
+            <Chip key={`s-${t}`} variant="good">{t}</Chip>
+          ))}
+          {insights.weaknesses.map((t) => (
+            <Chip key={`w-${t}`} variant="bad">{t}</Chip>
+          ))}
         </div>
 
         {/* Progress Bar */}

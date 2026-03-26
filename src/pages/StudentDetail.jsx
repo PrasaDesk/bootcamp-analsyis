@@ -8,6 +8,7 @@ import MentorScoresTable from '../components/MentorScoresTable';
 import LoadingSpinner from '../components/LoadingSpinner';
 import MissingConfig from '../components/MissingConfig';
 import AIAnalysisSection from '../components/AIAnalysisSection';
+import { getStudentInsights } from '../utils/studentInsights';
 
 export default function StudentDetail() {
   const { id } = useParams();
@@ -37,6 +38,7 @@ export default function StudentDetail() {
 
   const overall = student.scores.overall || 0;
   const isMERN = student.track === 'MERN';
+  const insights = getStudentInsights(student, { maxPerSide: 2 });
   
   const weeksToMap = termFilter === 'all' ? [1, 2, 3, 4, 5, 6, 7, 8] : termFilter === 'mid' ? [1, 2, 3, 4] : [5, 6, 7, 8];
 
@@ -171,6 +173,18 @@ export default function StudentDetail() {
                     {student.track || 'Unassigned'}
                   </span>
                   <span className="text-sm text-slate-500 font-mono">#{student.id.toString().padStart(3, '0')}</span>
+                  <div className="flex flex-wrap gap-2">
+                    {insights.strengths.map((t) => (
+                      <span key={`s-${t}`} className="px-3 py-1 rounded-lg text-[10px] font-extrabold tracking-wide border bg-emerald-500/10 text-emerald-300 border-emerald-500/20">
+                        {t}
+                      </span>
+                    ))}
+                    {insights.weaknesses.map((t) => (
+                      <span key={`w-${t}`} className="px-3 py-1 rounded-lg text-[10px] font-extrabold tracking-wide border bg-rose-500/10 text-rose-300 border-rose-500/20">
+                        {t}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
