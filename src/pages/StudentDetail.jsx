@@ -45,7 +45,20 @@ export default function StudentDetail() {
   const isMERN = student.track === 'MERN';
   const insights = getStudentInsights(student, { maxPerSide: 2 });
 
-  const weeksToMap = termFilter === 'all' ? [1, 2, 3, 4, 5, 6, 7, 8] : termFilter === 'mid' ? [1, 2, 3, 4] : [5, 6, 7, 8];
+  let baseWeeks = termFilter === 'all' ? [1, 2, 3, 4, 5, 6, 7, 8] : termFilter === 'mid' ? [1, 2, 3, 4] : [5, 6, 7, 8];
+  
+  let maxGlobalWeek = 1;
+  if (bootcampData && bootcampData.length > 0) {
+    bootcampData.forEach(s => {
+      for (let w = 1; w <= 8; w++) {
+        if (s.scores && s.scores[`week${w}`] != null && s.scores[`week${w}`] !== '') {
+          if (w > maxGlobalWeek) maxGlobalWeek = w;
+        }
+      }
+    });
+  }
+
+  const weeksToMap = baseWeeks.filter(w => w <= maxGlobalWeek);
 
   // Build weekly data for bar chart
   const weeklyData = weeksToMap.map(weekNum => ({
@@ -53,39 +66,7 @@ export default function StudentDetail() {
     score: student.scores[`week${weekNum}`] || 0
   }));
 
-  // Build category trend data
-  const categoriesPresent = Object.keys(student.mentorScores || {}).map(c => c === 'Professionalism and Discipline' ? 'Discipline' : c);
 
-  const categoryTrendData = weeksToMap.map(weekNum => {
-    const weekKey = `week${weekNum}`;
-    const weekData = { name: `W${weekNum}` };
-
-    Object.keys(student.mentorScores || {}).forEach(category => {
-      const displayCategory = category === 'Professionalism and Discipline' ? 'Discipline' : category;
-      const mentors = student.mentorScores[category];
-      let total = 0;
-      let count = 0;
-      mentors.forEach(m => {
-        if (m[weekKey] !== null) {
-          total += m[weekKey];
-          count++;
-        }
-      });
-      weekData[displayCategory] = count > 0 ? Math.round((total / count) * 10) / 10 : null;
-    });
-
-    return weekData;
-  });
-
-  const categoryColors = {
-    'Communication': '#8b5cf6',
-    'Discipline': '#ec4899',
-    'Proactiveness': '#f59e0b',
-    'Learning and Agile': '#10b981',
-    'React': '#06b6d4',
-    'Node': '#3b82f6',
-    'Java': '#ef4444',
-  };
 
   const filteredMetrics = [];
   const validCategoriesForMetrics = ['Communication', 'Professionalism and Discipline', 'Proactiveness', 'Learning and Agile', 'React', 'Node', 'Java'];
@@ -334,46 +315,7 @@ export default function StudentDetail() {
                 </div>
               </section>
 
-              {/* Category Trends Line Chart */}
-              <section className="glass-card p-6 md:p-8 overflow-hidden relative animate-fade-in-up-delay-2">
-                <div className="absolute -bottom-12 -right-12 w-32 h-32 bg-purple-500/[0.04] rounded-full blur-3xl pointer-events-none" />
-                <div className="flex items-center gap-3 mb-6 relative z-10">
-                  <div className="p-2.5 rounded-xl bg-purple-500/10 ring-1 ring-purple-500/20">
-                    <BarChart3 className="w-5 h-5 text-purple-400" />
-                  </div>
-                  <div>
-                    <h2 className="text-lg font-bold text-white">Skill Trends</h2>
-                    <p className="text-xs text-slate-500">Category performance across weeks</p>
-                  </div>
-                </div>
-                <div className="h-64 relative z-10">
-                  <ResponsiveContainer width="100%" height="100%">
-                    <LineChart data={categoryTrendData} margin={{ top: 5, right: 20, left: -25, bottom: 5 }}>
-                      <CartesianGrid strokeDasharray="3 3" stroke="rgba(51,65,85,0.2)" vertical={false} />
-                      <XAxis dataKey="name" axisLine={false} tickLine={false} tick={{ fill: '#64748b', fontSize: 11 }} />
-                      <YAxis axisLine={false} tickLine={false} tick={{ fill: '#475569', fontSize: 10 }} domain={[0, 10]} />
-                      <Tooltip
-                        contentStyle={{ background: 'var(--color-tooltipBg)', border: '1px solid rgba(99,102,241,0.2)', borderRadius: '10px' }}
-                        itemStyle={{ fontSize: '13px', fontWeight: 600 }}
-                        labelStyle={{ color: '#94a3b8', fontSize: '11px', fontWeight: 600, marginBottom: '5px' }}
-                      />
-                      <Legend iconType="circle" wrapperStyle={{ fontSize: '11px', paddingTop: '10px' }} />
-                      {categoriesPresent.filter(c => c !== 'null' && c !== 'undefined').map((category) => (
-                        <Line
-                          key={category}
-                          type="monotone"
-                          dataKey={category}
-                          stroke={categoryColors[category] || '#94a3b8'}
-                          strokeWidth={2}
-                          dot={false}
-                          activeDot={{ r: 4 }}
-                          connectNulls
-                        />
-                      ))}
-                    </LineChart>
-                  </ResponsiveContainer>
-                </div>
-              </section>
+
 
               {/* Mentor Scoring Grid */}
               <section className="glass-card p-6 md:p-8 overflow-hidden relative animate-fade-in-up-delay-3">

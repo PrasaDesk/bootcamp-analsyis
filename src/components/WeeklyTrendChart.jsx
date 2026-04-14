@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { ResponsiveContainer, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
+import { ResponsiveContainer, ComposedChart, Line, Bar, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
 import { Activity } from 'lucide-react';
 
 export default function WeeklyTrendChart({ data }) {
@@ -19,14 +19,26 @@ export default function WeeklyTrendChart({ data }) {
       keys = allKeys.slice(4, 8);
     }
     
-    return weeks.map((week, i) => {
+    let lastDataIndex = -1;
+    weeks.forEach((_, i) => {
       const key = keys[i];
-      const total = data.length;
-      const avg = total > 0 ? Math.round(data.reduce((sum, s) => sum + (s.scores[key] || 0), 0) / total) : 0;
+      const hasData = data.some(s => s.scores?.[key] !== undefined && s.scores?.[key] !== null && s.scores?.[key] !== '');
+      if (hasData) {
+        lastDataIndex = i;
+      }
+    });
+
+    if (lastDataIndex === -1) return [];
+
+    return weeks.slice(0, lastDataIndex + 1).map((week, i) => {
+      const key = keys[i];
+      const validStudents = data.filter(s => s.scores?.[key] !== undefined && s.scores?.[key] !== null && s.scores?.[key] !== '');
+      const total = validStudents.length;
+      const avg = total > 0 ? Math.round(validStudents.reduce((sum, s) => sum + Number(s.scores[key] || 0), 0) / total) : 0;
       
       const weekData = { name: week, average: avg };
       data.forEach(student => {
-        weekData[student.name] = student.scores[key] || 0;
+        weekData[student.name] = student.scores?.[key] ? Number(student.scores[key]) : 0;
       });
 
       return weekData;
@@ -113,7 +125,7 @@ export default function WeeklyTrendChart({ data }) {
 
       <div className="h-80 relative z-10">
         <ResponsiveContainer width="100%" height="100%">
-          <LineChart data={chartData} margin={{ top: 5, right: 10, left: -20, bottom: 5 }}>
+          <ComposedChart data={chartData} margin={{ top: 5, right: 10, left: -20, bottom: 5 }}>
             <CartesianGrid strokeDasharray="3 3" stroke="var(--color-gridLine)" vertical={false} />
             <XAxis 
               dataKey="name" 
@@ -129,6 +141,16 @@ export default function WeeklyTrendChart({ data }) {
             />
             <Tooltip content={<CustomTooltip />} />
             
+            {/* The Overall Average as a Bar for visual grounding */}
+            <Bar 
+              dataKey="average" 
+              name="Overall" 
+              fill="#6366f1"
+              radius={[4, 4, 0, 0]}
+              barSize={40}
+              fillOpacity={0.8}
+            />
+
             {data.map((student, idx) => {
               const colors = ['#f43f5e', '#a855f7', '#3b82f6', '#0ea5e9', '#10b981', '#fbbf24', '#f97316', '#14b8a6', '#8b5cf6', '#ec4899', '#facc15', '#2dd4bf'];
               const color = colors[idx % colors.length];
@@ -139,23 +161,13 @@ export default function WeeklyTrendChart({ data }) {
                   dataKey={student.name}
                   stroke={color}
                   strokeWidth={2}
-                  strokeOpacity={0.6}
-                  dot={false}
-                  activeDot={{ r: 4 }}
+                  strokeOpacity={0.7}
+                  dot={{ r: 3, fill: color, strokeWidth: 0 }}
+                  activeDot={{ r: 5 }}
                 />
               );
             })}
-            
-            <Line 
-              type="monotone" 
-              dataKey="average" 
-              name="Overall" 
-              stroke="#6366f1" 
-              strokeWidth={4} 
-              dot={{ r: 5, fill: '#6366f1', stroke: 'var(--color-chartFill)', strokeWidth: 2 }} 
-              activeDot={{ r: 7, stroke: '#6366f1', strokeWidth: 2, fill: 'var(--color-chartFill)' }} 
-            />
-          </LineChart>
+          </ComposedChart>
         </ResponsiveContainer>
       </div>
     </div>
