@@ -30,6 +30,24 @@ export default function useBootcampData() {
         }
 
         const parsedData = JSON.parse(storedData);
+
+        // Schema check: old cached data used projectFeedback.totalPoints (shared scorecard).
+        // The new parser produces projectFeedback.projectScore per student. If any student
+        // has the old shape, force a re-sync so the corrected values surface.
+        const looksStale = Array.isArray(parsedData)
+          && parsedData.length > 0
+          && parsedData.some(s =>
+            s?.projectFeedback
+            && s.projectFeedback.projectScore === undefined
+            && s.projectFeedback.totalPoints !== undefined
+          );
+        if (looksStale) {
+          localStorage.removeItem('bootcamp_data');
+          setError('missing_config');
+          setLoading(false);
+          return;
+        }
+
         setData(parsedData);
         setError(null);
       } catch (err) {

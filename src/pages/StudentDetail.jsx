@@ -430,12 +430,12 @@ export default function StudentDetail() {
                       <CheckCircle2 className="w-5 h-5 text-blue-400" />
                     </div>
                     <div>
-                      <h2 className="text-base font-bold text-white">Project Score</h2>
-                      <p className="text-[10px] text-slate-500 uppercase tracking-wider">Breakdown</p>
+                      <h2 className="text-base font-bold text-white">Final Project Score</h2>
+                      <p className="text-[10px] text-slate-500 uppercase tracking-wider">Per-category mentor average</p>
                     </div>
                   </div>
                   <span className="text-sm font-extrabold px-3 py-1.5 rounded-xl bg-gradient-to-r from-blue-500/20 to-indigo-500/20 text-blue-300 border border-blue-500/20">
-                    {student.projectFeedback?.totalPoints || 0} pts
+                    {student.projectFeedback?.projectScore ?? 0}%
                   </span>
                 </div>
 
@@ -448,12 +448,12 @@ export default function StudentDetail() {
                           <div className="w-12 h-1 bg-slate-800 rounded-full overflow-hidden">
                             <div className="h-full bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full" style={{ width: `${(item.points / 10) * 100}%` }} />
                           </div>
-                          <span className="font-mono text-xs text-blue-400 font-bold w-8 text-right">{item.points}</span>
+                          <span className="font-mono text-xs text-blue-400 font-bold w-10 text-right">{item.points}/10</span>
                         </div>
                       </div>
                     ))
                   ) : (
-                    <p className="text-sm text-slate-600 italic text-center p-6">Scorecard unavailable.</p>
+                    <p className="text-sm text-slate-600 italic text-center p-6">No project scores recorded yet.</p>
                   )}
                 </div>
               </section>

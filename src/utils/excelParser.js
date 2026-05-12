@@ -39,6 +39,11 @@ export const parseExcelWorkbook = (workbook) => {
     };
   });
 
+  const VALID_CATEGORIES = [
+    'Communication', 'Professionalism and Discipline', 'Proactiveness',
+    'Learning and Agile', 'React', 'Node', 'Java'
+  ];
+
   // 2. Parse individual sheets
   students.forEach(student => {
     const sheetName = student.name;
@@ -53,13 +58,23 @@ export const parseExcelWorkbook = (workbook) => {
     const midTermMOMIdx = headerRow.indexOf('Mid Term Meeting MOM');
     const finalMOMIdx = headerRow.indexOf('Final Meeting MOM');
     const overallPointIdx = headerRow.indexOf('Overall point');
+    const projectColIdx = headerRow.indexOf('ToDo Project'); // per-student final project column
     let midTermNotes = [];
     let finalNotes = [];
     let overallNotes = [];
+    let projectPercentFromSheet = null; // captured from the % summary row at the bottom
 
     for (let i = 1; i < rawData.length; i++) {
       const row = rawData[i];
       if (!row || row.length === 0) continue;
+
+      // Detect summary rows: col[0] is empty and col[1] is a number (200 = max, 1 = percent row marker)
+      if ((row[0] == null || row[0] === '') && typeof row[1] === 'number') {
+        if (row[1] === 1 && projectColIdx >= 0 && typeof row[projectColIdx] === 'number') {
+          projectPercentFromSheet = row[projectColIdx];
+        }
+        continue;
+      }
 
       if (row[0] && typeof row[0] === 'string') {
         currentCategory = row[0].trim();
@@ -81,56 +96,80 @@ export const parseExcelWorkbook = (workbook) => {
           week6: typeof row[7] === 'number' ? row[7] : null,
           week7: typeof row[8] === 'number' ? row[8] : null,
           week8: typeof row[9] === 'number' ? row[9] : null,
-          todo: typeof row[10] === 'number' ? row[10] : null,
+          project: typeof row[10] === 'number' ? row[10] : null,
         };
         student.mentorScores[currentCategory].push(mentorEntry);
       }
 
       if (midTermMOMIdx >= 0 && row[midTermMOMIdx] && typeof row[midTermMOMIdx] === 'string') {
-        midTermNotes.push(row[midTermMOMIdx]);
+        midTermNotes.push(row[midTermMOMIdx].trim());
       }
       if (finalMOMIdx >= 0 && row[finalMOMIdx] && typeof row[finalMOMIdx] === 'string') {
-        finalNotes.push(row[finalMOMIdx]);
+        finalNotes.push(row[finalMOMIdx].trim());
       }
       if (overallPointIdx >= 0 && row[overallPointIdx] && typeof row[overallPointIdx] === 'string') {
-        overallNotes.push(row[overallPointIdx]);
+        overallNotes.push(row[overallPointIdx].trim());
       }
     }
 
-    const VALID_CATEGORIES = [
-      'Communication', 'Professionalism and Discipline', 'Proactiveness', 
-      'Learning and Agile', 'React', 'Node', 'Java'
-    ];
+    // Build per-category metrics + per-category project breakdown in one pass
+    const projectScorecard = [];
+    let projectTotal = 0;
+    let projectCount = 0;
 
     Object.keys(student.mentorScores).forEach(category => {
       if (!VALID_CATEGORIES.includes(category)) return;
 
       const entries = student.mentorScores[category];
-      let totalScore = 0;
-      let scoreCount = 0;
-      
+      let weekTotal = 0;
+      let weekCount = 0;
+      let catProjectTotal = 0;
+      let catProjectCount = 0;
+
       entries.forEach(entry => {
         const weekScores = [entry.week1, entry.week2, entry.week3, entry.week4, entry.week5, entry.week6, entry.week7, entry.week8];
         weekScores.forEach(s => {
-          if (s !== null) { // Explicitly include zero scores
-            totalScore += s;
-            scoreCount++;
+          if (s !== null) {
+            weekTotal += s;
+            weekCount++;
           }
         });
+        if (entry.project !== null) {
+          catProjectTotal += entry.project;
+          catProjectCount++;
+          projectTotal += entry.project;
+          projectCount++;
+        }
       });
 
-      const rawAvg = scoreCount > 0 ? (totalScore / scoreCount) : 0;
+      const displayName = category === 'Professionalism and Discipline' ? 'Discipline' : category;
 
       student.metrics.push({
-        subject: category === 'Professionalism and Discipline' ? 'Discipline' : category,
-        score: Math.round(rawAvg * 10) / 10
+        subject: displayName,
+        score: weekCount > 0 ? Math.round((weekTotal / weekCount) * 10) / 10 : 0
       });
+
+      if (catProjectCount > 0) {
+        projectScorecard.push({
+          criteria: displayName,
+          points: Math.round((catProjectTotal / catProjectCount) * 10) / 10
+        });
+      }
     });
+
+    // Project score: prefer the sheet's own % row, fall back to computed average
+    const computedProjectPct = projectCount > 0
+      ? Math.round((projectTotal / (projectCount * 10)) * 100)
+      : 0;
+    student.projectFeedback = {
+      scorecard: projectScorecard,
+      projectScore: projectPercentFromSheet != null ? projectPercentFromSheet : computedProjectPct,
+    };
 
     student.moms = [];
     if (midTermNotes.length > 0) student.moms.push({ meeting: 'Mid-Term', notes: midTermNotes });
     if (finalNotes.length > 0) student.moms.push({ meeting: 'Final', notes: finalNotes });
-    
+
     if (student.moms.length === 0) {
       student.moms = [
         { meeting: 'Mid-Term', notes: 'Pending evaluation.' },
@@ -144,21 +183,6 @@ export const parseExcelWorkbook = (workbook) => {
       student.overallComments = [`Candidate achieved an overall score of ${student.scores.overall}% with a final rating of '${student.scores.overallRating}'.`];
     }
   });
-
-  // 3. Parse Final Project
-  const projectSheet = workbook.Sheets['Final Project Feedback'];
-  if (projectSheet) {
-    const pData = XLSX.utils.sheet_to_json(projectSheet, { header: 1 });
-    let projectBreakdown = [];
-    let totalPoints = 0;
-    pData.forEach(row => {
-      if (row[0] && typeof row[0] === 'string' && typeof row[1] === 'number') {
-        projectBreakdown.push({ criteria: row[0], points: row[1] });
-        totalPoints += row[1];
-      }
-    });
-    students.forEach(s => s.projectFeedback = { scorecard: projectBreakdown, totalPoints });
-  }
 
   return students;
 };
